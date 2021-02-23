@@ -1,3 +1,9 @@
+document.querySelector('.menu').addEventListener('click', () => {
+    document.querySelectorAll('.nav-target').forEach((item) => {
+        item.classList.toggle('change')
+    })
+})
+
 const icons = document.querySelectorAll('.section-1-icons i')
 let iconCounter = 1
 
